@@ -1,5 +1,4 @@
 import React from 'react'
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import homepic from '../assets/images/homepic.jpg'
 import { Link } from "react-scroll"
 import LogoSlide from './LogoSlide';

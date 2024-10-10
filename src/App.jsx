@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Work from './components/Work'
 import WhyChooseUs from './components/WhyChooseUs'
 import Feedback from './components/Feedback'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Work />
       <WhyChooseUs />
       <Feedback />
+      <Footer />
     </div>
   )
 }
