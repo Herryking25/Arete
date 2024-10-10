@@ -10,10 +10,10 @@ const Footer = () => {
   ];
 
   const linksGroup2 = [
-    { label: 'Our doctors', href: '#' },
+    { label: 'Our Teams', href: '#' },
     { label: 'Appointments', href: '#' },
     { label: 'Consultation', href: '#' },
-    { label: 'Patients testimonies', href: '#' },
+    { label: 'Clients testimonies', href: '#' },
   ];
 
   const socialLinks = [
@@ -46,7 +46,7 @@ const Footer = () => {
 
         {/* Social Media Links */}
         <div className="flex flex-col space-y-4">
-          <span>Follow</span>
+          <span>Follow us on:</span>
           <div className="flex space-x-4">
             {socialLinks.map((social, index) => (
               <a key={index} href={social.href} className="hover:text-primary">
