@@ -18,7 +18,7 @@ const Feedback = () => {
 
       <div className=" max-h-max w-full bg-blue-400 mx-auto flex flex-col justify-center items-center md:max-w-max md:max-h-max md:p-28">
             <h2 className="text-[25px] p-4 mb-4 text-white font-semibold sm:text-[35px]">Sign Up For Our Newsletter</h2>
-            <form>
+            <form className=''>
                 <div className="flex justify-center items-center mb-4">
                     <div className="relative">
                         <img alt="user-icon" src="https://openui.fly.dev/openui/24x24.svg?text=👤" className="absolute left-2 top-2" />

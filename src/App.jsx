@@ -1,20 +1,21 @@
 import React from 'react'
-import NavBar from './components/NavBar'
-import Hero from './components/Hero'
-import Work from './components/Work'
-import WhyChooseUs from './components/WhyChooseUs'
-import Feedback from './components/Feedback'
-import Footer from './components/Footer'
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './pages/Home'
+import Service from './pages/Service'
+import NoPage from './pages/NoPage'
+
 
 const App = () => {
   return (
     <div>
-      <NavBar />
-      <Hero />
-      <Work />
-      <WhyChooseUs />
-      <Feedback />
-      <Footer />
+      <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="*" element={<NoPage />} /> 
+      </Routes>
+      </BrowserRouter>
     </div>
   )
 }
