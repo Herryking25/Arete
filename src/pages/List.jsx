@@ -1,12 +1,15 @@
 import React from 'react'
 import { IoChevronBackSharp } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
+import Footer from '../components/Footer';
 
 
 
 export const List = () => {
   return (
-    <div className='w-[300px] h-[1000px] border border-black border-2px '>
+   <div> 
+   <div className='flex justify-center'> 
+    <div className='w-[600px] h-[1000px] border border-black border-2px '>
         <div className='pl-8'>
         <div>
             <div className='flex flex-row justify-between pt-4 pr-4 '>
@@ -56,6 +59,9 @@ export const List = () => {
             </ul>
         </div>
         </div>
+    </div>
+    </div>
+    <Footer />
     </div>
   )
 }

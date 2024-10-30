@@ -1,10 +1,14 @@
 import React from 'react'
 import about1 from '../assets/images/about1.png'
 import about2 from '../assets/images/about2.png'
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 export const About = () => {
   return (
-    <div className='flex flex-col justify-center items-center'>
+<div>
+    <NavBar />
+     <div className='flex flex-col justify-center items-center'>
         <div className='w-[700px] '>
         <img src={about1} alt="" />
         </div>
@@ -50,6 +54,8 @@ export const About = () => {
             
         </div>
     </div>
+    <Footer />
+   </div> 
   )
 }
 

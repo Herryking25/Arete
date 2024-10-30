@@ -6,7 +6,7 @@ import ava4 from '../assets/images/ava4.png'
 
 const Gallery = () => {
   return (
-    <div className='flex justify-center '>
+    <div className='flex justify-center  '>
         <div className='bg-[#F2CDF9] h-[640px] w-[620px] '>
         <div className='font-bold  ml-6'>
             <p className='pt-2'>Lorem ipsum dolor sit <br /> amet consectetur.</p>

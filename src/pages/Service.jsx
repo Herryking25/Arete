@@ -3,13 +3,16 @@ import service2 from '../assets/images/service2.png'
 import service1 from '../assets/images/service1.png'
 import { IoIosSearch } from "react-icons/io";
 import Gallery from '../components/Gallery';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 
 
 const Service = () => {
   return (
     <div>
-    <div className='flex flex-row justify-center h-[600px] mt-8'>
+            <NavBar />
+    <div className='flex flex-row justify-center h-[600px] pt-16'>
         <div className=' ' >
             <div className='font-bold mt-4 mb-4 text-lg '>
                 <p>Grow with A Web <br /> Developing Team you Can  <br />Trust!</p>
@@ -57,6 +60,7 @@ const Service = () => {
 
      </div>
      <Gallery />
+     <Footer />
      </div>
   )
 }
